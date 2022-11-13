@@ -1,0 +1,101 @@
+  /* Dark */
+:root {
+	--dark-syntax-tag: #39bae6;
+  --dark-syntax-func: #ffb454;
+  --dark-syntax-entity: #59c2ff;
+  --dark-syntax-string: #aad94c;
+  --dark-syntax-regexp: #95e6cb;
+  --dark-syntax-markup: #f07178;
+  --dark-syntax-keyword: #ff8f40;
+  --dark-syntax-special: #e6b673;
+  --dark-syntax-comment: #acb6bf8c;
+  --dark-syntax-constant: #d2a6ff;
+  --dark-syntax-operator: #f29668;
+  --dark-vcs-added: #7fd962;
+  --dark-vcs-modified: #73b8ff;
+  --dark-vcs-removed: #f26d78;
+  --dark-editor-fg: #bfbdb6;
+  --dark-editor-bg: #0d1017;
+  --dark-editor-line: #131721;
+  --dark-editor-selection-active: #409fff4d;
+  --dark-editor-selection-inactive: #409fff21;
+  --dark-editor-findMatch-active: #6c5980;
+  --dark-editor-findMatch-inactive: #6c598066;
+  --dark-editor-gutter-active: #6c7380e6;
+  --dark-editor-gutter-normal: #6c738099;
+  --dark-editor-indentGuide-active: #6c738080;
+  --dark-editor-indentGuide-normal: #6c738033;
+  --dark-ui-fg: #565b66;
+  --dark-ui-bg: #0b0e14;
+  --dark-ui-line: #11151c;
+  --dark-ui-selection-active: #47526640;
+  --dark-ui-selection-normal: #47526633;
+  --dark-ui-panel-bg: #0f131a;
+  --dark-ui-panel-shadow: #00000080;
+  --dark-common-accent: #e6b450;
+  --dark-common-error: #d95757;
+}
+
+
+body {
+	font-family: Verdana, sans-serif;
+	margin: auto;
+	padding: 20px;
+	max-width: 65ch;
+	text-align: left;
+	background-color: var(--dark-ui-bg);
+	word-wrap: break-word;
+	overflow-wrap: break-word;
+	line-height: 1.5;
+	color: var(--dark-editor-fg);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong,
+b {
+	color: var(--dark-editor-fg);
+}
+a {
+	color: var(--dark-syntax-func);
+}
+nav a {
+	margin-right: 10px;
+}
+textarea {
+	width: 100%;
+	font-size: 16px;
+}
+input {
+	font-size: 16px;
+}
+content {
+	line-height: 1.6;
+}
+table {
+	width: 100%;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+code {
+	padding: 2px 5px;
+	background-color: var(--dark-editor-fg);
+}
+pre {
+	padding: 1rem;
+}
+pre > code {
+	all: unset;
+}
+blockquote {
+	border: 1px solid #999;
+	color: #222;
+	padding: 2px 0px 2px 20px;
+	margin: 0px;
+	font-style: italic;
+}

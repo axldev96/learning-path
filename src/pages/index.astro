@@ -1,0 +1,69 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../config';
+---
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body>
+		<Header title={SITE_TITLE} />
+		<main>
+			<h1>Hi!, I'm Axel</h1>
+			<p>
+				Welcome to my developer learning path.
+			</p>
+			<p>
+				I already have some time learning web development and the more I learn, I feel that I need to know much more.
+			</p>
+			<p>For that reason, I've created this blog.</p>
+			<p>I want to have a record and organization of everything I'm learning and what I need to learn.</p>
+			<p>My goal is to hace a solid understanding of the basics of computer science and software architecture and become a software developer in web technologies, specifically in the frontend.</p>
+			<p>To structure the order of learning. I have divided the topics into groups that can vary.</p>
+			<section>
+				<h2>Maths for programming</h2>
+				<ul>
+					<li><a href="#">Basic Arithmetic</a></li>
+					<li><a href="#">Pre algebra</a></li>
+					<li><a href="#">Algebra</a></li>
+				</ul>
+				</section>
+			<section>
+				<h2>Computer science basics</h2>
+				<ul>
+					<li><a href="#">Digital Information</a></li>
+					<li><a href="#">How the internet works</a></li>
+					<li><a href="#">Programming Basics</a></li>
+					<li><a href="#">Algorithms and data structures</a></li>
+					<li><a href="#">Data analysis</a></li>
+					<li><a href="#">Online Data Security</a></li>
+				</ul>
+			</section>
+				<h2>Web Development</h2>
+				<h3>Frontend</h3>
+				<ul>
+					<li><a href="#">HTML</a></li>
+					<li><a href="#">CSS</a></li>
+					<li><a href="#">JavaScript</a></li>
+					<li><a href="#">Frameworks (React)</a></li>
+				</ul>
+				<h3>Backend</h3>
+				<ul>
+					<li><a href="#">Databases (SQL & NO SQL)</a></li>
+					<li><a href="#">Backend Languages (Node js | Rust)</a></li>
+				</ul>
+				<h3>Development and deploy tools</h3>
+				<ul>
+					<li><a href="#">Servers (Linux)</a></li>
+					<li><a href="#">Version Control System (Git)</a></li>
+					<li><a href="#">Containers (Docker)</a></li>
+				</ul>
+			<section>
+		</main>
+		<Footer />
+	</body>
+</html>
